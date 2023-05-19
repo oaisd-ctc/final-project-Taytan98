@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 8739883039466640619}
   m_Layer: 6
   m_Name: Gretty (Player) 1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 925210439
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 2056843066, guid: 8a49e24c927a17843b40666aafd21a79, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -224,5 +224,5 @@ MonoBehaviour:
   runSpeed: 10
   jumpSpeed: 5
   climbSpeed: 5
-  bullet: {fileID: 0}
-  gun: {fileID: 0}
+  bullet: {fileID: 7938981477701507862, guid: aa51421c72f68f94fb1259e5aa764a1b, type: 3}
+  gun: {fileID: 6524371549640241342}

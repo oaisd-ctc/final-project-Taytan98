@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -16,10 +17,10 @@ TagManager:
   - Background
   - Platform
   - Ground
-  - 
-  - 
-  - 
-  - 
+  - Enemy
+  - Bullet
+  - Interactables
+  - Spikes
   - 
   - 
   - 
@@ -56,6 +57,12 @@ TagManager:
   - name: enemies
     uniqueID: 620688971
     locked: 0
+  - name: Interactables
+    uniqueID: 2170663075
+    locked: 0
   - name: Player
     uniqueID: 925210439
+    locked: 0
+  - name: Enemy
+    uniqueID: 3829481979
     locked: 0
